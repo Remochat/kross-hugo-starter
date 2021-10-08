@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Heading 01
 - type: directory
   path: content/portfolio
   label: Portfolio
@@ -27,6 +29,8 @@ sections:
   create: documents
   match: "*"
   new_doc_ext: yml
+- type: heading
+  label: Heading 02
 - type: directory
   path: content/contact
   label: Contact
